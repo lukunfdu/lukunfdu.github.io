@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2017/11/20/python%20%E7%88%AC%E8%99%AB/</loc>
+    
+    <lastmod>2018-02-17T09:18:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/01/24/error-in-installing-pyinstaller/</loc>
     
-    <lastmod>2018-01-24T06:09:59.000Z</lastmod>
+    <lastmod>2018-02-02T04:50:02.000Z</lastmod>
     
   </url>
   
