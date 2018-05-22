@@ -94,17 +94,17 @@
 
 
 
-<meta name="description" content="迭代器作为实参传值不匹配。">
+<meta name="description" content="Describe: WebDriverError: unknown error: Chrome failed to start: exited abnormally.  when using selenium + python 2.7 + chromedriver in VPS machine. In my case I was using the newest headless feature,">
 <meta property="og:type" content="article">
-<meta property="og:title" content="c++">
-<meta property="og:url" content="http://yoursite.com/2018/04/18/ZET copy/index.html">
+<meta property="og:title" content="chromediver error">
+<meta property="og:url" content="http://yoursite.com/2018/05/22/chromediver-error/index.html">
 <meta property="og:site_name" content="喵嘟">
-<meta property="og:description" content="迭代器作为实参传值不匹配。">
+<meta property="og:description" content="Describe: WebDriverError: unknown error: Chrome failed to start: exited abnormally.  when using selenium + python 2.7 + chromedriver in VPS machine. In my case I was using the newest headless feature,">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-20T02:00:39.000Z">
+<meta property="og:updated_time" content="2018-05-22T10:04:43.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="c++">
-<meta name="twitter:description" content="迭代器作为实参传值不匹配。">
+<meta name="twitter:title" content="chromediver error">
+<meta name="twitter:description" content="Describe: WebDriverError: unknown error: Chrome failed to start: exited abnormally.  when using selenium + python 2.7 + chromedriver in VPS machine. In my case I was using the newest headless feature,">
 
 
 
@@ -133,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/04/18/ZET copy/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/22/chromediver-error/"/>
 
 
 
 
 
-  <title>c++ | 喵嘟</title>
+  <title>chromediver error | 喵嘟</title>
   
 
 
@@ -272,7 +272,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/18/ZET copy/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/22/chromediver-error/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="lukun">
@@ -289,7 +289,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">c++</h1>
+          <h1 class="post-title" itemprop="name headline">chromediver error</h1>
         
 
         <div class="post-meta">
@@ -301,8 +301,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-18T11:20:07+08:00">
-                2018-04-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-22T18:02:38+08:00">
+                2018-05-22
               </time>
             
 
@@ -339,7 +339,10 @@
       
 
       
-        <p>迭代器作为实参传值不匹配。</p>
+        <p>Describe: WebDriverError: unknown error: Chrome failed to start: exited abnormally.</p>
+<p> when using selenium + python 2.7 + chromedriver in VPS machine.</p>
+<p>In my case I was using the newest headless feature, so adding ‘no-sandbox’ parameter to the ChromeOptions object did the trick.</p>
+<p>chrome_options = webdriver.ChromeOptions()<br>chrome_options.add_argument(‘headless’)<br>chrome_options.add_argument(‘no-sandbox’)<br>driver = webdriver.Chrome(chrome_options=chrome_options)<br>The problem seems to be a permission issue with chrome. It does not allow a ‘root’ user to execute it without the –no-sandbox flag</p>
 
       
     </div>
@@ -364,8 +367,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/02/17/python爬虫/" rel="next" title="python爬虫">
-                <i class="fa fa-chevron-left"></i> python爬虫
+              <a href="/2018/05/09/c-vecter-sorting-error/" rel="next" title="c++ vecter sorting error">
+                <i class="fa fa-chevron-left"></i> c++ vecter sorting error
               </a>
             
           </div>
@@ -373,10 +376,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/18/ZET/" rel="prev" title="ZET">
-                ZET <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
